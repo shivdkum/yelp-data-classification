@@ -4,6 +4,7 @@ require(wordcloud)
 require(dplyr)
 require(e1071)
 input <- read.csv(file ="sample.csv", nrows = 10000, header = TRUE, stringsAsFactors = FALSE)
+#Filtering for review stars = 1
 onestar <- filter(input, review_stars == 1)
 
 corp <- Corpus(VectorSource(onestar$review_text))
