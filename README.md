@@ -9,3 +9,5 @@ project will allow poorly reviewed businesses to re-evaluate their business mode
 incorporate the attributes identified as important into their business so as to achieve an
 
 increased popularity and better performance.
+
+# added the sample dataset in zip file.
